@@ -1,7 +1,31 @@
 @media screen and (max-width: 550px) {
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-
+    .full-name {
+       font-size: 28px;
     }
+
+}
+@media screen and (max-width: 423px) {
+  .full-name {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .occupation {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (min-width: 550px) {
+    .occupation {
+       font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+   .project-examples {
+     display: flex;
+     flex-wrap: wrap;
+   }
 }

@@ -6,37 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio Mockup</title>
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <script src="js/bootstrap.min.js"></script>
   </head>
   <body>
    <div class="container">
-        <div class="grid">
         <header>
-          <div class="row">
-            <div class="col-md-6"><img class="coffee-cup" src="css/img/coffee-1576537_640.jpg" alt="pouring milk into a mug of coffee"></div>
-            <div class="col-md-6 name">
-              <h1>Seth Lachman</h1>
-              <h2>Front End Developer</h2>
+          <div class="row top-bar">
+            <div class="col-xs-6"><i class="fa fa-superpowers fa-4x top-25" aria-hidden="true"></i>
+            </div>
+            <div class="col-xs-6 text-right">
+              <h1 class="full-name">Seth Lachman</h1>
+              <h2 class="occupation">Front-End Developer</h2>
             </div>
           </div>
         </header>
         <hr class="hr-head">
+      <div class="f-wrap">
         <div class="row">
-          <div class="col-md-12"><img src="http://placehold.it/1190x600" alt=""></div>
+          <div class="col-sm-12"><img class="img-responsive" src="css/img/pexels-photo-239898.jpeg" alt=""></div>
         </div>
         <div class="row">
-          <div class="col-md-12 three-left">
-            <h3>Featured Work</h3>
+          <div class="col-sm-12 three-left">
+            <h3 class="work-h3">Featured Work</h3>
           </div>
         </div>
-        <div class="project-exapmles row">
-          <div class="col-md-4 center-text"><img src="http://placehold.it/350x150" alt=""><h3>Appify</h3><p><a href="#">Link to project</a></p></div>
-          <div class="col-md-4 center-text"><img src="http://placehold.it/350x150" alt=""><h3>Appify</h3><p><a href="#">Link to project</a></p></div>
-          <div class="col-md-4 center-text"><img src="http://placehold.it/350x150" alt=""><h3>Appify</h3><p><a href="#">Link to project</a></p></div>
+        <div class="project-examples row">
+          <div class="col-sm-4 center-text"><img class="img-responsive" src="css/img/running-photo-196359.jpeg" alt=""><h3 class="project-name">RunTrack</h3><p><a href="#" class="project-link">Check it out!</a></p></div>
+          <div class="col-sm-4 center-text"><img src="css/img/traffic-photo-186537.jpeg" class="img-responsive" alt=""><h3 class="project-name">NavChoice</h3><p><a href="#" class="project-link">Check it out!</a></p></div>
+          <div class="col-sm-4 center-text"><img class="img-responsive" src="css/img/money-card-business-credit-card-50987.jpeg" alt=""><h3 class="project-name">TransFast</h3><p><a href="#" class="project-link">Check it out!</a></p></div>
         </div>
       </div>
+    </div>
   </body>
 </html>
